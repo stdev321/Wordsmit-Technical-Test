@@ -1,49 +1,37 @@
-# Wordsmit-Technical-Test
+# Wordsmith Technical Test
 
----------------------------------------------------
-## account management api
+This repository contains the code for the Wordsmith Technical Test. It includes an account management API and a memoization function for number conversion. Below are instructions on how to run the code and use the provided features.
 
-<!-- Run the command to install the dependencies -->
-#### Run the command to install the dependencies:
+## Account Management API
 
-->>> npm install
+To set up and run the account management API, follow these steps:
 
-<!-- run the comman to run the express server -->
-#### Run the command to run the express server in development mode:
+1. Install the dependencies by running the command: `npm install`
 
-->>> npm run serve
+2. Start the express server in development mode using the command: `npm run serve`
 
-<!-- run the comman to run the express server -->
-### Run the command to run the express server in production mode:
+3. To run the express server in production mode, build the project using: `npm run build` and then start the server using: `npm start`
 
-->>> npm run build
+4. To test the API, you can import the attached Postman collection named `account-management-api.postman_collection.json`
 
-->>> npm start
+## Memorizer Function
 
-### To test the API I have attached the postman collection named: 
-->>> account-management-api.postman_collection.json
+To use the memorizer function for caching return values, follow these steps:
 
----------------------------------------------------
+1. Install the required packages globally by running the command: `npm install -g ts-node typescript '@types/node'`
 
-## Memorizer function:
+2. Execute the TypeScript file using the command: `ts-node index.ts`
 
+3. Check the terminal to view the results of the function execution with caching.
 
-#### Run the below commands and install the required packages globally:
+## Number Conversion
 
-->>> npm install -g ts-node typescript '@types/node'
+To convert Arabic numbers to Roman numerals, follow these steps:
 
-#### Now run the following command to execute a typescript file:
+1. Execute the TypeScript file using the command: `ts-node index.ts`
 
-->>> ts-node index.ts
+2. Check the terminal to view the converted Roman numerals for different input numbers.
 
-Check the terminal to view the results
+Note: Make sure you have Node.js and npm installed on your machine before running the commands.
 
----------------------------------------------------
-
-## Number conversion
-
-#### Now run the following command to execute a typescript file:
-
-->>> ts-node index.ts
-
-Check the terminal to view the results
+If you have any questions or issues, feel free to reach out. Happy coding!
