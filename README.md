@@ -20,6 +20,9 @@
 
 ->>> npm start
 
+### To test the API I have attached the postman collection named: 
+->>> account-management-api.postman_collection.json
+
 ---------------------------------------------------
 
 ## Memorizer function:
@@ -33,6 +36,8 @@
 
 ->>> ts-node index.ts
 
+Check the terminal to view the results
+
 ---------------------------------------------------
 
 ## Number conversion
@@ -40,3 +45,5 @@
 #### Now run the following command to execute a typescript file:
 
 ->>> ts-node index.ts
+
+Check the terminal to view the results
